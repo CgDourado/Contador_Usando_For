@@ -1,0 +1,14 @@
+using static System.Console;
+
+int inicial, final;
+
+WriteLine("Digite um Valor Inicial");
+inicial = Convert.ToInt32(ReadLine());
+WriteLine("Digite um Valor Final");
+final = Convert.ToInt32(ReadLine());
+
+for (int i = inicial; i <= final; i++)
+{
+    WriteLine($"Interpolação: {i}");
+}
+ReadLine();
